@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.close {
+  color: #2b2f32;
+  font-size: 35px;
+  font-weight: 400;
+  text-shadow: none;
+  line-height: 25px;
+  height: 25px;
+  width: 25px;
+  padding: 0 0 0 3px;
+  opacity: 1;
+  overflow: hidden;
+  position: absolute;
+  left: auto;
+  right: 10px;
+  top: 5px;
+  z-index: 2;
+  transition: all 0.3s;
+}
+.close span {
+  margin: -5px 0 0;
+  display: block;
+}
+.close:focus {
+  outline: none;
+}
+.feedback-btn {
+  display: block;
+  text-align: right;
+}
+.feedback-btn{
+  color: #e54341;
+  font-weight: 700;
+  text-decoration: none;
+  margin: 0 50px;
+}
+.feedback-btn .btn {
+  background: #c5c5c5;
+  color: rgba(255, 255, 255, 0.5);
+  width: 216px;
+  height: 48px;
+  border-radius: 4px;
+  opacity: 0.33;
+}
